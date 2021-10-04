@@ -10,7 +10,6 @@ from VCPlayBot.helpers.decorators import sudo_users_only
 
 logging.basicConfig(level=logging.INFO)
 
-
 START_TIME = datetime.utcnow()
 START_TIME_ISO = START_TIME.replace(microsecond=0).isoformat()
 TIME_DURATION_UNITS = (
@@ -65,8 +64,8 @@ async def start_(client: Client, message: Message):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/S780821/Xmarty_Music_2"
-                        XmartyBot"
+                        "✨ Source Code ✨", url="https://github.com/S780821/Xmarty_Music_2"
+
                     )
                 ]
             ]
