@@ -546,7 +546,7 @@ async def play(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/f6086f8909fbfeb0844f2.png"
+        thumb_name = "https://telegra.ph/file/3aa55e7efe0fabf05da4e.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -779,7 +779,7 @@ async def ytplay(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "I joined this group for playing music in VC"
+                        message.chat.id, "Xmarty joined this group for playing music in VC"
                     )
                     await lel.edit(
                         "<b>helper userbot joined your chat</b>",
@@ -798,7 +798,7 @@ async def ytplay(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @AwesomeSupport with your group link</i>"
+            f"<i> {user.first_name} Xmartybot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @AwesomeSupport with your group link</i>"
         )
         return
     await lel.edit("🔎 <b>Finding</b>")
