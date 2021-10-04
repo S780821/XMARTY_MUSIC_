@@ -26,7 +26,7 @@ async def update_admin(client, message: Message):
             for member in await message.chat.get_members(filter="administrators")
         ],
     )
-    await message.reply_text("❇️ Admin cache refreshed!")
+    await message.reply_text("❇️ ᴀᴅᴍɪɴ ᴄʜᴀᴄᴇ ʀᴇғʀᴇsʜᴇᴅ!")
 
 
 @Client.on_message(command("pause") & other_filters)
@@ -37,10 +37,10 @@ async def pause(_, message: Message):
     if (chat_id not in callsmusic.active_chats) or (
         callsmusic.active_chats[chat_id] == "paused"
     ):
-        await message.reply_text("❗ Nothing is playing!")
+        await message.reply_text("❗ ɴᴏᴛʜɪɴɢ ɪs ᴘʟᴀʏɪɴɢ!")
     else:
         callsmusic.pause(chat_id)
-        await message.reply_text("▶️ Paused!")
+        await message.reply_text("▶️ ᴘᴀᴜsᴇᴅ!")
 
 
 @Client.on_message(command("resume") & other_filters)
