@@ -13,7 +13,6 @@ The easiest way to deploy this Bot
 Please fork this repository don't import code
 
 Made with Python3
-
 (C) @Xmartymusic
 
 ```
@@ -22,15 +21,15 @@ Made with Python3
 
 - Some Of The Mandatory Vars Are :-
 
-   - `API_ID` :  Give API_ID of your Alternate Telegram Account. also get from here [@APIInfoBot](https://t.me/APIinfoBot)
+   - `API_ID` :  ɢɪᴠᴇ ᴀᴘɪ_ɪᴅ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ [@APIInfoBot](https://t.me/APIinfoBot)
 
-   - `API_HASH` :  Give API_HASH of your Alternate Telegram Account. also get from here [@APIInfoBot](https://t.me/APIinfoBot)
+   - `API_HASH` :  ɢɪᴠᴇ ᴀᴘɪ_ʜᴀsʜ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ[@APIInfoBot](https://t.me/APIinfoBot)
 
-   - `STRING_NAME` :  Make a string session from [here](https://replit.com/@QueenArzoo/VCPlayBot)
+   - `STRING_NAME` :  мακє α ѕτяιиg ѕєѕѕιοи ƒяοм [ᕼᗴᖇᗴ](https://replit.com/@S780821/pyrogramsession)
 
-   - `BOT_TOKEN` :  Make a Bot from [@Botfather](https://t.me/botfather) and fill it's bot token.
+   - `BOT_TOKEN` :  Make a Bot from [@Botfather](https://t.me/botfather) αղժ բíll íԵs ճօԵ Եօkɾղ .
 
-   - `SUDO_USERS` :  Fill Userid of yhe users whom you want to be able to control the bot. You can add multiple id by giving a space in b/w each id.
+   - `SUDO_USERS` :  Fɪʟʟ Usᴇʀɪᴅ ᴏғ ʏʜᴇ ᴜsᴇʀs ᴡʜᴏᴍ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʙᴇ ᴀʙʟᴇ ᴛᴏ ᴄᴏɴᴛʀᴏʟ ᴛʜᴇ ʙᴏᴛ. Yᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴍᴜʟᴛɪᴘʟᴇ ɪᴅ ʙʏ ɢɪᴠɪɴɢ ᴀ sᴘᴀᴄᴇ ɪɴ b/w ᴇᴀᴄʜ ɪᴅ.
 
 Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/PyrogramSession)
 
@@ -56,31 +55,31 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 
 - /video <song name> - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏs ʏᴏᴜ ᴡᴀɴᴛ ϙᴜɪᴄᴋʟʏ
 
-#### Admins only.
+#### ᴀᴅᴍɪɴs ᴏɴʟʏ
 
 - `/player` -ᴏᴘᴇɴ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴇᴛᴛɪɴɢs ᴘᴀɴᴇʟ
 
-- `/pause` - pause song play
+- `/pause` - ᴘsᴜsᴇ sᴏɴɢ ᴘʟᴀʏ
 
-- `/resume` - resume song play
+- `/resume` - ʀᴇsᴜᴍᴇ sᴏɴɢ ᴘʟᴀʏ
 
-- `/skip` - play next song
+- `/skip` - ᴘʟᴀʏ ɴᴇxᴛ ᴅᴏɴɢ
 
-- `/end` - stop music play
+- `/end` - sᴛᴏᴘ ᴍᴜsɪᴄ ᴘʟᴀʏ
 
-- `/userbotjoin` - invite assistant to your chat
+- `/userbotjoin` - ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ
 
-- `/userbotleave` - remove assistant from your chat
+- `/userbotleave` - ʀᴇᴍᴏᴠᴇ ᴀssɪsᴛᴀɴᴛ ғʀᴏᴍ ʏᴏᴜʀ ᴄʜᴀᴛ
 
-- `/admincache` - Refresh admin list
+- `/admincache` - Rᴇғʀᴇsʜ ᴀᴅᴍɪɴ ʟɪsᴛ
 
-### Commands for Channel Music Play 🛠
+## Cᴏᴍᴍᴀɴᴅs ғᴏʀ Cʜᴀɴɴᴇʟ Mᴜsɪᴄ Pʟᴀʏ  🛠
 
-For linked group admins only:
+ƒσɾ ℓเɳҡε∂ ɠɾσµρ α∂ɱเɳร σɳℓყ:
 
 - `/cplay <song name>` - ᴘʟᴀʏ sᴏɴɢ ʏᴏᴜ ʀᴇϙᴜᴇsᴛᴇᴅ
 
-- `/cplay <reply to link>` - play replied youtube link
+- `/cplay <reply to link>` - ρℓαყ ɾερℓเε∂ ყσµƭµɓε ℓเɳҡ
 
 - `/cplay <reply to audio>` - play replied file
 
