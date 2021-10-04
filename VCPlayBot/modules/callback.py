@@ -30,16 +30,16 @@ async def cbstart(_, query: CallbackQuery):
                          "📚 Commands", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "💝 Donate", url=f"https://t.me/Xmartperson")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "👥 Official Group", url=f"https://t.me/Xmarty_Support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "📣 Official Channel", url=f"https://t.me/Xmarty_Support")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QuennArzoo/VCPlayBot"
+                        "✨ Source Code ✨", url="https://github.com/S780821/Xmarty_Music_2"
                     )
                 ]
             ]
