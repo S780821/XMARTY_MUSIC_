@@ -24,7 +24,7 @@ Made with Python3
 
    - `API_HASH` :  ɢɪᴠᴇ ᴀᴘɪ_ʜᴀsʜ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ[@APIInfoBot](https://t.me/APIinfoBot)
 
-   - `STRING_NAME` :  мακє α ѕτяιиg ѕєѕѕιοи ƒяοм [ᕼᗴᖇᗴ](https://t.me/Sessiongenerator)
+   - `STRING_NAME` :  мακє α ѕτяιиg ѕєѕѕιοи ƒяοм [ᕼᗴᖇᗴ](http://t.me/Xmarty_Helper_bot)
 
    - `BOT_TOKEN` :  Make a Bot from [@Botfather](https://t.me/botfather) αղժ բíll íԵs ճօԵ Եօkɾղ .
 
