@@ -65,7 +65,8 @@ async def start_(client: Client, message: Message):
                         "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "🧪 Source Code 🧪", url="https://github.com/QueenArzoo/VCPlayBot"
+                        "🧪 Source Code 🧪", url="https://github.com/S780821/Xmarty_Music_2"
+                        XmartyBot"
                     )
                 ]
             ]
@@ -85,10 +86,10 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "✨ Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "✨ Group", url=f"https://t.me/Xmarty_Support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        "📣 Channel", url=f"https://t.me/Xmarty_Support"
                     )
                 ]
             ]
