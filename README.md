@@ -1,6 +1,6 @@
-# How To Host
+# Ｈｏｗ Ｔｏ Ｈｏｓｔ
 
-The easiest way to deploy this Bot
+Tʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜɪs Bᴏᴛ
 
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/S780821/XMARTY_MUSIC_2"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-red?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
@@ -11,15 +11,14 @@ The easiest way to deploy this Bot
 ```
 
 Please fork this repository don't import code
-
 Made with Python3
 (C) @Xmartymusic
 
 ```
 
-### Mandatory Vars.
+## Mᴀɴᴅᴀᴛᴏʀʏ Vᴀʀs.
 
-- Some Of The Mandatory Vars Are :-
+- ˢᵒᵐᵉ ᵒᶠ ᵗʰᵉ ᵐᵃⁿᵈᵃᵗᵒʳʸ ᵛᵃʳˢ ᵃʳᵉ :-
 
    - `API_ID` :  ɢɪᴠᴇ ᴀᴘɪ_ɪᴅ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ [@APIInfoBot](https://t.me/APIinfoBot)
 
@@ -33,7 +32,7 @@ Made with Python3
 
 Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://replit.com/@S780821/PyrogramSession)
 
-## Commands 🛠
+## ᏟϴᎷᎷᎪΝᎠՏ 🛠
 
 - /play <song name> - ᴘʟᴀʏ sᴏɴɢ ʏᴏᴜ ʀᴇϙᴜᴇsᴛᴇᴅ 
 
@@ -55,7 +54,7 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 
 - /video <song name> - ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏs ʏᴏᴜ ᴡᴀɴᴛ ϙᴜɪᴄᴋʟʏ
 
-#### ᴀᴅᴍɪɴs ᴏɴʟʏ
+## ᴀᴅᴍɪɴs ᴏɴʟʏ
 
 - `/player` -ᴏᴘᴇɴ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴇᴛᴛɪɴɢs ᴘᴀɴᴇʟ
 
@@ -81,56 +80,56 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 
 - `/cplay <reply to link>` - ρℓαყ ɾερℓเε∂ ყσµƭµɓε ℓเɳҡ
 
-- `/cplay <reply to audio>` - play replied file
+- `/cplay <reply to audio>` - ρℓαγ яєρℓιє∂ ƒιℓє
 
-- `/cdplay <song name>` - play song you requested via deezer
+- `/cdplay <song name>` - ρℓαყ รσɳɠ ყσµ ɾεφµεรƭε∂ ѵเα ∂εεƶεɾ
 
-- `/csplay <song name>` - play song you requested via jio saavn
+- `/csplay <song name>` - ρℓαყ รσɳɠ ყσµ ɾεφµεรƭε∂ ѵเα ʝเσ รααѵɳ
 
-- `/cplaylist` - Show now playing list
+- `/cplaylist` - sհօա ղօա թlαվíղց lísԵ
 
-- `/cccurrent` - Show now playing
+- `/cccurrent` - ѕнοω иοω ρℓαγιиg
 
-- `/cplayer` - open music player settings panel
+- `/cplayer` - ορєи мυѕιϲ ρℓαγєя ѕєττιиgѕ ραиєℓ
 
-- `/cpause` - pause song play
+- `/cpause` - ραυѕє ѕοиg ρℓαγ
 
-- `/cresume` - resume song play
+- `/cresume` - яєѕυмє ѕοиg ρℓαγ
 
-- `/cskip` - play next song
+- `/cskip` - ρℓαγ иєϰτ ѕοиg
 
-- `/cend` - stop music play
+- `/cend` - ѕτορ мυѕιϲ ρℓαγ
 
-- `/userbotjoinchannel` - invite assistant to your chat
+- `/userbotjoinchannel` - ιиνιτє αѕѕιѕταиτ το γουя ϲнατ
 
-* channel is also can be used instead of c
+* ᏟᎻᎪΝΝᎬᏞ ᏆՏ ᎪᏞՏϴ ᏟᎪΝ ᏴᎬ ႮՏᎬᎠ ᏆΝՏͲᎬᎪᎠ ϴҒ Ꮯ
 
-If you donlt like to play in linked channel:
+ιƒ γου ∂οиℓτ ℓικє το ρℓαγ ιи ℓιиκє∂ ϲнαииєℓ:
 
- 1. Get your channel ID.
+ 1. gєτ γουя ϲнαииєℓ ι∂.
 
- 2. Rename your group to: Channel Music: your_channel_id
+ 2. яєиαмє γουя gяουρ το: ϲнαииєℓ мυѕιϲ: γουя_ϲнαииєℓ_ι∂
 
- 3. Add @VCPlayBot as Channel admin with full perms
+ 3. α∂∂ ur bot username αѕ ϲнαииєℓ α∂мιи ωιτн ƒυℓℓ ρєямѕ
 
- 4. add helper to channel
+ 4. α∂∂ нєℓρєя το ϲнαииєℓ
 
- 5. Simply send commands in your group.
+ 5. ѕιмρℓγ ѕєи∂ ϲοммαи∂ѕ ιи γουя gяουρ.
 
-### Commands for Sudo Users ⚔️
+## ᏟϴᎷᎷᎪΝᎠՏ ҒϴᎡ ՏႮᎠϴ ႮՏᎬᎡՏ ⚔️
 
-- `/userbotleaveall` - remove assistant from all chats
+- `/userbotleaveall` - ɾεɱσѵε αรรเรƭαɳƭ ƒɾσɱ αℓℓ cɦαƭร
 
-- `/gcast <reply to message>` - globally brodcast replied message to all chats
+- `/gcast <reply to message>` - ɢʟᴏʙᴀʟʟʏ ʙʀᴏᴅᴄᴀsᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄʜᴀᴛs
 
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
-#### Pmpermit
+### Pmpermit
 
-- `.a` - approove someone to pm you
+- `.a` - ᴀᴘᴘʀᴏᴏᴠᴇ sᴏᴍᴇᴏɴᴇ ᴛᴏ ᴘᴍ ʏᴏᴜ
 
-- `.da` - disapproove someone to pm you
+- `.da` - ᴅɪsᴀᴘᴘʀᴏᴏᴠᴇ sᴏᴍᴇᴏɴᴇ ᴛᴏ ᴘᴍ ʏᴏᴜ
 
-+ Sudo Users can execute any command in any groups
++ Ｓｕｄｏ Ｕｓｅｒｓ ｃａｎ ｅｘｅｃｕｔｅ ａｎｙ ｃｏｍｍａｎｄ ｉｎ ａｎｙ ｇｒｏｕｐｓ
 
 # 
