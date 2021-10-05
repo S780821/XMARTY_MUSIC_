@@ -15,7 +15,7 @@ f"""
 
 ⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
 
-Join @Girls_And_Boys_Chatting
+Join @Xmarty_Support
 """,
 
 f"""
