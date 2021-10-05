@@ -35,10 +35,10 @@ async def _human_time_duration(seconds):
 @Client.on_message(command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>✨ **Welcome {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}] 𝗮𝗹𝗹𝗼𝘄 𝘆𝗼𝘂 𝘁𝗼 𝗽𝗹𝗮𝘆 𝗺𝘂𝘀𝗶𝗰 𝗼𝗻 𝗴𝗿𝗼𝘂𝗽𝘀 𝘁𝗵𝗿𝗼𝘂𝗴𝗵 𝘁𝗵𝗲 𝗻𝗲𝘄 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺'𝘀 𝘃𝗼𝗶𝗰𝗲 𝗰𝗵𝗮𝘁𝘀 !**
+        f"""<b>✨ **𝙒𝙀𝙇𝘾𝙊𝙈𝙀 {message.from_user.first_name}** \n
+💭 **[{BOT_NAME}] αℓℓοω γου το ρℓαγ мυѕιϲ οи gяουρѕ τняουgн τнє иєω τєℓєgяαм'ѕ νοιϲє ϲнατѕ !**
 
-💡 **𝗙𝗶𝗻𝗱 𝗼𝘂𝘁 𝗮𝗹𝗹 𝘁𝗵𝗲 𝗕𝗼𝘁'𝘀 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗮𝗻𝗱 𝗵𝗼𝘄 𝘁𝗵𝗲𝘆 𝘄𝗼𝗿𝗸 𝗯𝘆 𝗰𝗹𝗶𝗰𝗸𝗶𝗻𝗴 𝗼𝗻 𝘁𝗵𝗲 » 📚 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝗯𝘂𝘁𝘁𝗼𝗻 !**
+💡 **ƒιи∂ ουτ οƒ αℓℓ τнє ϐοτ'ѕ ϲοммиα∂ѕ αи∂ нοω τнєγ ωοяκ ϐγ ϲℓιϲκιиg οи τнє ϲοммαи∂ѕ ϐυττοи !**
 
 ❓ **𝗙𝗼𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻 𝗮𝗯𝗼𝘂𝘁 𝗮𝗹𝗹 𝗳𝗲𝗮𝘁𝘂𝗿𝗲 𝗼𝗳 𝘁𝗵𝗶𝘀 𝗯𝗼𝘁, 𝗷𝘂𝘀𝘁 𝘁𝘆𝗽𝗲 /help**
 </b>""",
@@ -117,11 +117,11 @@ async def help(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def help_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>💡 Hello {message.from_user.mention} welcome to the help menu !</b>
+        f"""<b>💡 Hello {message.from_user.mention} 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖙𝖔 𝖙𝖍𝖊 𝖍𝖊𝖑𝖕 𝖒𝖊𝖓𝖚 !</b>
 
-**in this menu you can open several available command menus, in each command menu there is also a brief explanation of each command**
+**𝒊𝒏 𝒕𝒉𝒊𝒔 𝒎𝒆𝒏𝒖 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒐𝒑𝒆𝒏 𝒔𝒆𝒗𝒆𝒓𝒂𝒍 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒎𝒆𝒏𝒖'𝒔, 𝒊𝒏 𝒆𝒂𝒄𝒉 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒎𝒆𝒏𝒖 𝒕𝒉𝒆𝒓𝒆 𝒊𝒔 𝒂𝒍𝒔𝒐 𝒂 𝒃𝒓𝒊𝒆𝒇 𝒆𝒙𝒑𝒍𝒂𝒏𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝒆𝒂𝒄𝒉 𝒄𝒐𝒎𝒎𝒂𝒏𝒅**
 
-⚡ __Powered by {BOT_NAME} A.I__""",
+⚡ __𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 {BOT_NAME} A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
