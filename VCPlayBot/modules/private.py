@@ -36,7 +36,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>✨ **𝙒𝙀𝙇𝘾𝙊𝙈𝙀 {message.from_user.first_name}** \n
-💭 **[{BOT_NAME}] αℓℓοω γου το ρℓαγ мυѕιϲ οи gяουρѕ τняουgн τнє иєω τєℓєgяαм'ѕ νοιϲє ϲнατѕ !**
+💭 ****[{BOT_NAME}](https://t.me/{BOT_USERNAME})] αℓℓοω γου το ρℓαγ мυѕιϲ οи gяουρѕ τняουgн τнє иєω τєℓєgяαм'ѕ νοιϲє ϲнατѕ!**
 
 💡 **ƒιи∂ ουτ οƒ αℓℓ τнє ϐοτ'ѕ ϲοммиα∂ѕ αи∂ нοω τнєγ ωοяκ ϐγ ϲℓιϲκιиg οи τнє ϲοммαи∂ѕ ϐυττοи !**
 
@@ -80,7 +80,7 @@ async def start(client: Client, message: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await message.reply_text(
-        f"""✅ **bot is running**\n<b>💠 **uptime:**</b> `{uptime}`""",
+        f"""✅ **ʙᴏᴛ ɪs ʀᴜɴɴɪɴɢ**\n<b>💠 **ᴜᴘᴛɪᴍᴇ:**</b> `{uptime}`""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -158,7 +158,7 @@ async def help_(client: Client, message: Message):
 @Client.on_message(command(["ping", f"ping@{BOT_USERNAME}"]) & ~filters.edited)
 async def ping_pong(client: Client, message: Message):
     start = time()
-    m_reply = await message.reply_text("pinging...")
+    m_reply = await message.reply_text("ᴘɪɴɢɪɴɢ...")
     delta_ping = time() - start
     await m_reply.edit_text(
         "🏓 `PONG!!`\n"
