@@ -46,25 +46,25 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ α∂∂ мє το γουя gяουρ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
                     InlineKeyboardButton(
-                        "❓ How to use Me", callback_data="cbhowtouse")
+                        "🤔 ɦσω ƭσ µรε ɱε", callback_data="cbhowtouse")
                 ],[
                     InlineKeyboardButton(
-                         "📚 Commands", callback_data="cbcmds"
+                         "🗡️ ϲοммαи∂ѕ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💝 Donate", url=f"https://t.me/{OWNER_NAME}")
+                        "💸 ∂οиατє", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/{SUPPORT_GROUP}"
                     ),
                     InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "👉 οƒƒιϲιαℓ ϲнαииєℓ", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ],[
                     InlineKeyboardButton(
-                        "✨ Source Code ✨", url="https://github.com/S780821/Xmarty_Music_2"
+                        "✨ мακє υя οωи ϐοτ ✨", url="https://github.com/S780821/Xmarty_Music_2"
 
                     )
                 ]
@@ -88,7 +88,7 @@ async def start(client: Client, message: Message):
                         "✨ Group", url=f"https://t.me/Xmarty_Support"
                     ),
                     InlineKeyboardButton(
-                        "📣 Channel", url=f"https://t.me/Xmarty_Support"
+                        "✨ мακє υя οωи ϐοτ ✨", url="https://github.com/S780821/Xmarty_Music_2"
                     )
                 ]
             ]
@@ -126,28 +126,28 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📚 Basic Cmd", callback_data="cbbasic"
+                        "📚 ϐαѕιϲ ϲми∂", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
-                        "📕 Advanced Cmd", callback_data="cbadvanced"
+                        "📕 α∂ναиϲє∂ ϲми∂", callback_data="cbadvanced"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📘 Admin Cmd", callback_data="cbadmin"
+                        "📘 α∂мιи ϲми∂", callback_data="cbadmin"
                     ),
                     InlineKeyboardButton(
-                        "📗 Sudo Cmd", callback_data="cbsudo"
+                        "📗 ѕυ∂ο ϲми∂", callback_data="cbsudo"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📙 Owner Cmd", callback_data="cbowner"
+                        "📙 οωиєя ϲми∂", callback_data="cbowner"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "📔 Fun Cmd", callback_data="cbfun"
+                        "📔 ƒυи ϲми∂", callback_data="cbfun"
                     )
                 ]
             ]
