@@ -124,7 +124,7 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 
  5. ѕιмρℓγ ѕєи∂ ϲοммαи∂ѕ ιи γουя gяουρ.
 
-## ᏟϴᎷᎷᎪΝᎠՏ ҒϴᎡ ՏႮᎠϴ ႮՏᎬᎡՏ ⚔️
+## ᏟϴᎷᎷᎪΝᎠՏ ҒϴᎡ ՏႮᎠϴ ႮՏᎬᎡՏ ⚡
 
 - `/userbotleaveall` - ɾεɱσѵε αรรเรƭαɳƭ ƒɾσɱ αℓℓ cɦαƭร
 
