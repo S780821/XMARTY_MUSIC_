@@ -98,9 +98,9 @@ async def start(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>👋🏻 **Hello** {message.from_user.mention()}</b>
+        f"""<b>👋🏻 **𝙃𝙀𝙇𝙇𝙊** {message.from_user.mention()}</b>
 
-**Please press the button below to read the explanation and see the list of available commands !**
+**𝑷𝒍𝒆𝒂𝒔𝒆 𝒑𝒓𝒆𝒔𝒔 𝒕𝒉𝒆 𝒃𝒖𝒕𝒕𝒐𝒏 𝒃𝒆𝒍𝒐𝒘 𝒕𝒐 𝒓𝒆𝒂𝒅 𝒕𝒉𝒆 𝒆𝒙𝒑𝒍𝒂𝒏𝒂𝒕𝒊𝒐𝒏 𝒂𝒏𝒅 𝒔𝒆𝒆 𝒕𝒉𝒆 𝒍𝒊𝒔𝒕 𝒐𝒇 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒔 !**
 
 ⚡ __Powered by {BOT_NAME} A.I""",
         reply_markup=InlineKeyboardMarkup(
@@ -117,11 +117,11 @@ async def help(client: Client, message: Message):
 @Client.on_message(command(["help", f"help@{BOT_USERNAME}"]) & filters.private & ~filters.edited)
 async def help_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>💡 Hello {message.from_user.mention} 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖙𝖔 𝖙𝖍𝖊 𝖍𝖊𝖑𝖕 𝖒𝖊𝖓𝖚 !</b>
+        f"""<b>💡 𝙃𝙀𝙇𝙇𝙊 {message.from_user.mention} 𝖜𝖊𝖑𝖈𝖔𝖒𝖊 𝖙𝖔 𝖙𝖍𝖊 𝖍𝖊𝖑𝖕 𝖒𝖊𝖓𝖚 !</b>
 
 **𝒊𝒏 𝒕𝒉𝒊𝒔 𝒎𝒆𝒏𝒖 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒐𝒑𝒆𝒏 𝒔𝒆𝒗𝒆𝒓𝒂𝒍 𝒂𝒗𝒂𝒊𝒍𝒂𝒃𝒍𝒆 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒎𝒆𝒏𝒖'𝒔, 𝒊𝒏 𝒆𝒂𝒄𝒉 𝒄𝒐𝒎𝒎𝒂𝒏𝒅 𝒎𝒆𝒏𝒖 𝒕𝒉𝒆𝒓𝒆 𝒊𝒔 𝒂𝒍𝒔𝒐 𝒂 𝒃𝒓𝒊𝒆𝒇 𝒆𝒙𝒑𝒍𝒂𝒏𝒂𝒕𝒊𝒐𝒏 𝒐𝒇 𝒆𝒂𝒄𝒉 𝒄𝒐𝒎𝒎𝒂𝒏𝒅**
 
-⚡ __𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 {BOT_NAME} A.I__""",
+⚡ __𝙋𝙊𝙒𝙀𝙍𝙀𝘿 𝘽𝙔 {BOT_NAME} XmartySalim__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
