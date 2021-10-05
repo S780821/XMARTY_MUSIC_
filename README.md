@@ -131,7 +131,7 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 
 - `/pmpermit [on/off]` - enable/disable pmpermit message
 
-### Pmpermit
+#### Pmpermit
 
 - `.a` - ᴀᴘᴘʀᴏᴏᴠᴇ sᴏᴍᴇᴏɴᴇ ᴛᴏ ᴘᴍ ʏᴏᴜ
 
