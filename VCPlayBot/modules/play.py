@@ -54,7 +54,7 @@ def cb_admin_check(func: Callable) -> Callable:
         if cb.from_user.id in admemes:
             return await func(client, cb)
         else:
-            await cb.answer("You ain't allowed!", show_alert=True)
+            await cb.answer("ʏᴏʀ ᴀʀᴇ ɴᴏᴛ ᴀʟʟᴏᴡᴇᴅ!", show_alert=True)
             return
 
     return decorator
@@ -165,32 +165,32 @@ def updated_stats(chat, queue, vol=100):
         stats = "Settings of **{}**".format(chat.title)
         if len(que) > 0:
             stats += "\n\n"
-            stats += "Volume : {}%\n".format(vol)
-            stats += "Songs in queue : `{}`\n".format(len(que))
-            stats += "Now Playing : **{}**\n".format(queue[0][0])
-            stats += "Requested by : {}".format(queue[0][1].mention)
+            stats += "ᴠᴏʟᴜᴍᴇ : {}%\n".format(vol)
+            stats += "Sᴏɴɢs ɪɴ ϙᴜᴇᴜᴇ : `{}`\n".format(len(que))
+            stats += "Nᴏᴡ ᴘʟᴀʏɪɴɢ : **{}**\n".format(queue[0][0])
+            stats += "Rᴇϙᴜᴇsᴛᴇᴅ Bʏ : {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
 
 
 def r_ply(type_):
-    if type_ == "play":
+    if type_ == "Pʟᴀʏ":
         pass
     else:
         pass
     mar = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("⏹", "leave"),
-                InlineKeyboardButton("⏸", "puse"),
-                InlineKeyboardButton("▶️", "resume"),
-                InlineKeyboardButton("⏭", "skip"),
+                InlineKeyboardButton("⏹", "Cʟᴏsᴇ"),
+                InlineKeyboardButton("⏸", "ᴘᴀᴜsᴇ"),
+                InlineKeyboardButton("▶️", "Rᴇsᴜᴍᴇ"),
+                InlineKeyboardButton("⏭", "Sᴋɪᴘ"),
             ],
             [
-                InlineKeyboardButton("Playlist 📖", "playlist"),
+                InlineKeyboardButton("Pʟᴀʏʟɪsᴛ 📖", "playlist"),
             ],
-            [InlineKeyboardButton("❌ Close", "cls")],
+            [InlineKeyboardButton("❌ Cʟᴏsᴇ", "cls")],
         ]
     )
     return mar
@@ -205,14 +205,14 @@ async def ee(client, message):
     if stats:
         await message.reply(stats)
     else:
-        await message.reply("No VC instances running in this chat")
+        await message.reply("ɴᵒ ᴠᶜ ɪⁿˢᵗᵃⁿᶜᵉˢ ʳᵘⁿⁿⁱⁿᵍ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
 
 
-@Client.on_message(filters.command("player") & filters.group & ~filters.edited)
+@Client.on_message(filters.command("ᴘʟᴀʏᴇʀ") & filters.group & ~filters.edited)
 @authorized_users_only
 async def settings(client, message):
     if message.chat.id in DISABLED_GROUPS:
-        await message.reply("Music Player is Disabled")
+        await message.reply("ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ɪs ᴅɪsᴀʙʟᴇᴅ")
         return    
     playing = None
     chat_id = get_chat_id(message.chat)
@@ -230,7 +230,7 @@ async def settings(client, message):
 
 
 @Client.on_message(
-    filters.command("musicplayer") & ~filters.edited & ~filters.bot & ~filters.private
+    filters.command("ᴍᴜsɪᴄᴘʟᴀʏᴇʀ") & ~filters.edited & ~filters.bot & ~filters.private
 )
 @authorized_users_only
 async def hfmm(_, message):
@@ -249,18 +249,18 @@ async def hfmm(_, message):
     if status == "ON" or status == "on" or status == "On":
         lel = await message.reply("`Processing...`")
         if not message.chat.id in DISABLED_GROUPS:
-            await lel.edit("Music Player Already Activated In This Chat")
+            await lel.edit("ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴀʟʀᴇᴀᴅʏ ᴀᴄᴛɪᴠᴀᴛᴇᴅ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
             return
         DISABLED_GROUPS.remove(message.chat.id)
         await lel.edit(
-            f"Music Player Successfully Enabled For Users In The Chat {message.chat.id}"
+            f"ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ sᴜᴄᴇssғᴜʟʟʏ ᴇɴᴀʙʟᴇᴅ ғᴏʀ ᴜsᴇʀs ɪɴ ᴛʜᴇ ᴄʜᴀᴛ {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await message.reply("`Processing...`")
         
         if message.chat.id in DISABLED_GROUPS:
-            await lel.edit("Music Player Already turned off In This Chat")
+            await lel.edit("ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ɪs ᴀʟʀᴇᴀᴅʏ ᴏғғ ɪɴ ᴛʜɪs ᴄʜᴀᴛ")
             return
         DISABLED_GROUPS.append(message.chat.id)
         await lel.edit(
