@@ -29,9 +29,9 @@ Made with Python3
 
 - ˢᵒᵐᵉ ᵒᶠ ᵗʰᵉ ᵐᵃⁿᵈᵃᵗᵒʳʸ ᵛᵃʳˢ ᵃʳᵉ :-
 
-   - `API_ID` :  ɢɪᴠᴇ ᴀᴘɪ_ɪᴅ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ [@APIInfoBot](https://t.me/APIinfoBot)
+   - `API_ID` :  ɢɪᴠᴇ ᴀᴘɪ_ɪᴅ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ [TELEGRAM ORG](https://my.telegram.org/auth)
 
-   - `API_HASH` :  ɢɪᴠᴇ ᴀᴘɪ_ʜᴀsʜ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ[@APIInfoBot](https://t.me/APIinfoBot)
+   - `API_HASH` :  ɢɪᴠᴇ ᴀᴘɪ_ʜᴀsʜ ᴏғ ʏᴏᴜʀ ᴀʟᴛᴇʀɴᴀᴛᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴄᴄᴏᴜɴᴛ. ᴀʟsᴏ ɢᴇᴛ ғʀᴏᴍ ʜᴇʀᴇ[TELEGRAM ORG](https://my.telegram.org/auth)
 
    - `STRING_NAME` :  мακє α ѕτяιиg ѕєѕѕιοи ƒяοм [ᕼᗴᖇᗴ](https://replit.com/@S780821/PyrogramSession)
 
