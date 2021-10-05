@@ -77,7 +77,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "15"
+      "value": "60"
     }
   }
 }
