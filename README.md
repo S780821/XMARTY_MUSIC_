@@ -4,7 +4,7 @@
 <p align="center">
   <img src="https://telegra.ph/file/3aa55e7efe0fabf05da4e.jpg">
 </p>
-## Ｈｏｗ Ｔｏ Ｈｏｓｔ
+# Ｈｏｗ Ｔｏ Ｈｏｓｔ
 
 Tʜᴇ ᴇᴀsɪᴇsᴛ ᴡᴀʏ ᴛᴏ ᴅᴇᴘʟᴏʏ ᴛʜɪs Bᴏᴛ
 
