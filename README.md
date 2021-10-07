@@ -140,4 +140,4 @@ Get STRING_NAME from here:  [![GenerateString](https://img.shields.io/badge/repl
 - `.da` - ᴅɪsᴀᴘᴘʀᴏᴏᴠᴇ sᴏᴍᴇᴏɴᴇ ᴛᴏ ᴘᴍ ʏᴏᴜ
 
 + SUDO USER CAN EXECUTE ANY COMMAND IN SNY GROUPS
-# 
+# .•♫•♬• ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ xᴍᴀʀᴛɪᴇs ʀᴇᴘᴏ •♫•♬•
