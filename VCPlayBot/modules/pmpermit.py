@@ -19,7 +19,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hi there, This is a music assistant service .\n\n ❗️ Rules:\n   - Join Support Group @xmarty_support\n   - No chatting allowed\n   - No spam allowed \n\n 👉 **SEND GROUP INVITE LINK OR USERNAME IF USERBOT CAN'T JOIN YOUR GROUP.**\n\n ⚠️ Disclamer: If you are sending a message here it means admin will see your message and join chat\n    - Don't add this user to secret groups.\n   - Don't Share private info here\n\n",
+                "Hɪ ᴛʜᴇʀᴇ, τнιѕ ιѕ α мυιѕϲ αѕѕιѕταиτ ѕєяνιϲє .\n\n ❗️ Rules:\n   - נοιи ѕυρροяτ gяουρ @xmarty_support\n   - иο ϲнαττιиg αℓℓοωє∂\n   - иο ѕραм αℓℓοωє∂ \n\n 👉 **ѕєи∂ gяουρ ιиνιτє ℓιиκ οя υѕєяиαмє ιƒ υѕєяϐοτ ϲαиϲτ γουя gяουρ.**\n\n ⚠️ ∂ιѕϲℓαмєя: ιƒ υя ѕєи∂ιиg α мαѕѕαgє нєяє ιτ мєαиѕ α∂мιи ωιℓℓ ѕєє γουя мєѕѕαgє αи∂ נοιи ϲнατ\n    - ∂οиϲτ α∂∂ τнιѕ υѕєя το ѕєϲєяτ gяουρѕ.\n   - ∂οиϲτ ѕнαяє υя ρяινατє ιиƒο нєяє\n\n",
             )
             return
 
