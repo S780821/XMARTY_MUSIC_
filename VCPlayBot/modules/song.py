@@ -341,7 +341,7 @@ async def ytmusic(client, message: Message):
             ytdl_data = ytdl.extract_info(url, download=True)
 
     except Exception:
-        # await pablo.edit(event, f"**Failed To Download** \n**Error :** `{str(e)}`")
+        # await pablo.edit(event, f"**բαιℓє∂ το ∂οωиℓοα∂** \n**Error :** `{str(e)}`")
         is_downloading = False
         return
 
