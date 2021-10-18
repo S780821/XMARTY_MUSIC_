@@ -107,7 +107,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="❔ HOW TO USE ME", callback_data="cbguide"
+                        text="❔ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ", callback_data="cbguide"
                     )
                 ]
             ]
