@@ -58,7 +58,7 @@ async def start_(client: Client, message: Message):
                         "💸 ∂οиατє", url=f"https://t.me/{OWNER_NAME}")
                 ],[
                     InlineKeyboardButton(
-                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/xmartysupport"
                     ),
                     InlineKeyboardButton(
                         "👉 οƒƒιϲιαℓ ϲнαииєℓ", url=f"https://t.me/{UPDATES_CHANNEL}")
