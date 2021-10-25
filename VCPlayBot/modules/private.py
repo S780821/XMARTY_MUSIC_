@@ -55,16 +55,19 @@ async def start_(client: Client, message: Message):
                          "🗡️ ϲοммαи∂ѕ", callback_data="cbcmds"
                     ),
                     InlineKeyboardButton(
-                        "💸 ∂οиατє", url=f"https://t.me/{OWNER_NAME}")
+                        "💸 ∂οиατє", url=f"https://t.me/Xmartperson")
                 ],[
                     InlineKeyboardButton(
-                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/xmartysupport"
+                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/xmarty_support"
                     ),
                     InlineKeyboardButton(
-                        "👉 οƒƒιϲιαℓ ϲнαииєℓ", url=f"https://t.me/{UPDATES_CHANNEL}")
+                        "👉 οƒƒιϲιαℓ ϲнαииєℓ", url=f"https://t.me/Xmarty_support")
                 ],[
                     InlineKeyboardButton(
                         "✨ мακє υя οωи ϐοτ ✨", url="https://github.com/S780821/Xmarty_Music_2"
+                ],[
+                    InlineKeyboardButton(
+                        "✨ ϲнιτϲнατ gяουρ ✨", url=f"https://t.me/welcomefriendclub")
 
                     )
                 ]
