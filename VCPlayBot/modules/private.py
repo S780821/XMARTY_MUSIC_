@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ α∂∂ мє το γουя gяουρ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "➕ α∂∂ мє το γουя gяουρ ➕", url=f"https://t.me/XMARTY_MUSIC_ROBOT?startgroup=true")
                 ],[
                     InlineKeyboardButton(
                         "🤔 ɦσω ƭσ µรε ɱε", callback_data="cbhowtouse")
