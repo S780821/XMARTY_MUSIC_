@@ -67,7 +67,9 @@ async def start_(client: Client, message: Message):
                         "✨ мακє υя οωи ϐοτ ✨", url="https://github.com/S780821/Xmarty_Music_2"
                 ],[
                     InlineKeyboardButton(
-                        "✨ ϲнιτϲнατ gяουρ ✨", url=f"https://t.me/welcomefriendclub")
+                        "✨ ϲнιτϲнατ gяουρ ✨", url=f"https://t.me/welcomefriendclub"
+
+
 
                     )
                 ]
