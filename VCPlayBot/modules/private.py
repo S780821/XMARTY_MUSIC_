@@ -58,17 +58,13 @@ async def start_(client: Client, message: Message):
                         "💸 ∂οиατє", url=f"https://t.me/Xmartperson")
                 ],[
                     InlineKeyboardButton(
-                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/xmarty_support"
+                        "😈 οƒƒιϲιαℓ gяουρ", url=f"https://t.me/Xmarty_support"
                     ),
                     InlineKeyboardButton(
-                        "👉 οƒƒιϲιαℓ ϲнαииєℓ", url=f"https://t.me/Xmarty_support")
+                        "👉 ϲнιτϲнατ gяουρ", url=f"https://t.me/Welcomefriendclub")
                 ],[
                     InlineKeyboardButton(
                         "✨ мακє υя οωи ϐοτ ✨", url="https://github.com/S780821/Xmarty_Music_2"
-                ],[
-                    InlineKeyboardButton(
-                        "✨ ϲнιτϲнατ gяουρ ✨", url=f"https://t.me/welcomefriendclub"
-
 
 
                     )
