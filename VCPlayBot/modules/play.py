@@ -498,7 +498,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @AwesomeSupport with your group link</i>"
+            f"<i> {user.first_name} Userbot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @xmarty_support with your group link</i>"
         )
         return
     text_links=None
@@ -798,7 +798,7 @@ async def ytplay(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i> {user.first_name} Xmartybot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @AwesomeSupport with your group link</i>"
+            f"<i> {user.first_name} Xmartybot not in this chat, Ask admin to send /play command for first time or add {user.first_name} manually request here @Xmarty_Support with your group link</i>"
         )
         return
     await lel.edit("🔎 <b>Finding</b>")
@@ -955,7 +955,7 @@ async def jiosaavn(client: Client, message_: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            "<i> helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually request here @AwesomeSupport with your group link</i>"
+            "<i> helper Userbot not in this chat, Ask admin to send /play command for first time or add assistant manually request here @Xmarty_Support with your group link</i>"
         )
         return
     requested_by = message_.from_user.first_name
