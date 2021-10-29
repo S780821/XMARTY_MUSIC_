@@ -491,7 +491,7 @@ async def play(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        "\n\nOr manually add assistant to your Group and try again manually request here @Xmarty_Support with your group link</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -791,7 +791,7 @@ async def ytplay(_, message: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add assistant to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        "\n\nOr manually add assistant to your Group and try again manually request here @Xmarty_Support with your group link</b>",
                     )
     try:
         await USER.get_chat(chid)
@@ -948,7 +948,7 @@ async def jiosaavn(client: Client, message_: Message):
                     # print(e)
                     await lel.edit(
                         f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                        "\n\nOr manually add @VCPlayBot to your Group and try again manually request here @AwesomeSupport with your group link</b>",
+                        "\n\nOr manually add @xmarty_music_robot to your Group and try again manually request here @Xmarty_Support with your group link</b>",
                     )
     try:
         await USER.get_chat(chid)
