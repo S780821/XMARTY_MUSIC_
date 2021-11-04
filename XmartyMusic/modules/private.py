@@ -18,7 +18,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from DaisyXMusic.config import (
+from XmartyMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
     SOURCE_CODE,
