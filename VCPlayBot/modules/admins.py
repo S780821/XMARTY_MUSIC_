@@ -99,6 +99,43 @@ async def skip(_, message: Message):
         return
     await message.reply_text(f"- Skipped **{skip[0]}**\n- Now Playing **{qeue[0][0]}**")
 
+@Client.on_message(command('mute') & other_filters)
+@errors
+@authorized_users_only
+async def mute(_, message: Message):
+    chat_id = get_chat_id(message.chat)
+    result = await callsmusic.mute(chat_id)
+    (
+        await message.reply_text("✅ Muted")
+    ) if (
+        result == 0
+    ) else (
+        await message.reply_text("❌ Already muted")
+    ) if (
+        result == 1
+    ) else (
+        await message.reply_text("❌ Not in call")
+    )
+
+        
+@Client.on_message(command('unmute') & other_filters)
+@errors
+@authorized_users_only
+async def unmute(_, message: Message):
+    chat_id = get_chat_id(message.chat)
+    result = await callsmusic.unmute(chat_id)
+    (
+        await message.reply_text("✅ Unmuted")
+    ) if (
+        result == 0
+    ) else (
+        await message.reply_text("❌ Not muted")
+    ) if (
+        result == 1
+    ) else (
+        await message.reply_text("❌ Not in call")
+    )
+
 
 @Client.on_message(filters.command("admincache"))
 @errors
