@@ -5,7 +5,7 @@
 ### Available on telegram as [@xmarty_music_robot](https://t.me/xmarty_music_robot)
 
 <p align="center">
-  <img src="https://telegra.ph/file/dd04b1968f1bc1169d162.jpg">
+  <img src="https://telegra.ph/file/3aa55e7efe0fabf05da4e.jpg">
 </p>
 
 <h2> Features 🔥 </h2>
