@@ -1,9 +1,9 @@
 {
   "name": "XmartyMusic",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
+  "logo": "https://telegra.ph/file/bf3d5334efaa345955275.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/S780821/XmartyMusic",
+  "repository": "https://github.com/S780821/Xmarty_Music_2",
   "stack": "container",
   "buildpacks": [
    {
@@ -34,7 +34,7 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "Xmarty_Updates"
+      "value": "Xmarty_Support"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
@@ -53,12 +53,12 @@
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": " https://telegra.ph/file/dcfdf612e499eef0e0b1f.png"
+      "value": " https://telegra.ph/file/bf3d5334efaa345955275.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "Xmarty_Support"
+      "value": "Xmarty_Updates"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
@@ -80,7 +80,7 @@
     "DURATION_LIMIT": {
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
-      "value": "10"
+      "value": "30"
     }
   }
 }
