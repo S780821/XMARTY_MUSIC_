@@ -20,7 +20,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 
 from XmartyMusic.config import SUDO_USERS
-from XmartyMusic. Xmarty helpers.decorators import authorized_users_only, errors
+from XmartyMusic.helpers.decorators import authorized_users_only, errors
 from XmartyMusic.services.callsmusic import client as USER
 
 
