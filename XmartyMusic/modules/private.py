@@ -18,7 +18,7 @@ import logging
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from XmartyMusic.config import (
+from DaisyXMusic.config import (
     BOT_USERNAME,
     PROJECT_NAME,
     SOURCE_CODE,
@@ -41,7 +41,7 @@ def _start(client, message):
                InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-               InlineKeyboardButton("📲 Updates", url=f"https://t.me/Xmarty_Updates"),
+               InlineKeyboardButton("📲 Updates", url=f"https://t.me/Xmarty_updates"),
                InlineKeyboardButton("💬 Support", url=f"https://t.me/Xmarty_Support")
             ],
             [
@@ -55,8 +55,8 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 XmartyMusic is online**""",
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/Xmarty_Support")]])
+        f"""**🔴 {PROJECT_NAME} is online**""",
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/xmarty_support")]])
     )
 
 
@@ -95,12 +95,12 @@ def map(pos):
     if pos == 1:
         button = [[InlineKeyboardButton(text="▶️", callback_data="help+2")]]
     elif pos == len(tr.HELP_MSG) - 1:
-        url = f"https://t.me/Xmarty_Updates"
+        url = f"https://t.me/{SUPPORT_GROUP}"
         button = [[
                     InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],
                   [
-                    InlineKeyboardButton(text="📲 Updates", url=f"https://t.me/Xmarty_Updates"),
+                    InlineKeyboardButton(text="📲 Updates", url=f"https://t.me/Xmarty_updates"),
                     InlineKeyboardButton(text="💬 Support", url=f"https://t.me/Xmarty_Support")
                   ],
                   [
