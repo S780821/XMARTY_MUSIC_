@@ -41,11 +41,11 @@ def _start(client, message):
                InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
             ],
             [
-               InlineKeyboardButton("📲 Updates", url=f"https://t.me/Xmarty_updates"),
-               InlineKeyboardButton("💬 Support", url=f"https://t.me/Xmarty_Support")
+               InlineKeyboardButton("📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
+               InlineKeyboardButton("💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
             ],
             [
-               InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://https://github.com/S780821/XMARTY_MUSIC_2")
+               InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
            ]]
         ),
         reply_to_message_id=message.message_id,
