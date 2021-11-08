@@ -1,4 +1,4 @@
-<h1 align="center">Xmarty_Music_2 🎵</h1>
+<h1 align="center">Xmarty_Music_2</h1>
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [XmartSalim](https://t.me/xmartperson)
@@ -21,7 +21,7 @@
 - Userbot auto join
 - Channel Music Play
 - Keyboard selection support for youtube play
-
+## Hey guys /Start cmnd are not working in this repo 😶
 ## 🚀 Deployment
 
 ### 💜 Heroku
