@@ -40,7 +40,7 @@ def _start(client, message):
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        f"""**🔴 XmartyMusic is online**""",
+        f"""**🔴 NikhilMusic is online**""",
         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("💬 Support Chat", url=f"https://t.me/{SUPPORT_GROUP}")]])
     )
 
