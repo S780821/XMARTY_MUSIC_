@@ -15,28 +15,29 @@ from XmartyMusic.modules.msg import Messages as tr
 logging.basicConfig(level=logging.INFO)
 
 
-@Client.on_message(filters.private & filters.incoming & filters.command(["start"]))
+@Client.on_message(filters.private & filters.incoming & filters.command(['start']))
 def _start(client, message):
-    client.send_message(
-        message.chat.id,
+    client.send_message(message.chat.id,
         text=tr.START_MSG.format(message.from_user.first_name, message.from_user.id),
         parse_mode="markdown",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-                ], 
+                    InlineKeyboardButton(
+                        "➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
-                    InlineKeyboardButton("📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                    InlineKeyboardButton("💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
-                ],
-                [
-                    InlineKeyboardButton("🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                    InlineKeyboardButton(
+                        "📲 Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                    InlineKeyboardButton(
+                        "💬 Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                ],[
+                    InlineKeyboardButton(
+                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
                 ]
             ]
         ),
-        reply_to_message_id=message.message_id,
-    )
+        reply_to_message_id=message.message_id
+        )
 
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
